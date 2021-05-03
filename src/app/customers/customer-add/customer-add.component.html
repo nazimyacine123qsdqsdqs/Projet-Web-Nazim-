@@ -1,0 +1,46 @@
+<h3>Ajouter une offre</h3>
+
+<form class="form-inline mb-4">
+  <form [formGroup]="customerForm" (submit)="createCustomer()" class="form-inline mb-4">
+    <label class="sr-only" for="Name">Name</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="name" placeholder="Nom" >
+    </div>
+
+    <label class="sr-only" for="Phone">Phone</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="phone" placeholder="Ville de départ">
+    </div>
+
+    <label class="sr-only" for="Address">Address</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="address" placeholder="Ville d'arrivée">
+    </div>
+
+    <label class="sr-only" for="membership">Membership</label>
+    <div class="input-group mb-2 mr-sm-2">
+      
+        <input type="date" class="form-control" formControlName="membership" placeholder="Date">
+      
+    </div>
+    
+    <input type="submit" class="btn btn-primary mb-2" value="Ajouter">
+  </form>
+</form>
+
+  <h3>Rechercher une offre</h3>
+
+  
+    <form >
+      <form [formGroup]="customerForm" (submit)="searchCustomer()" class="form-inline mb-4">
+        <label class="sr-only" for="Name"></label>
+        <div class="input-group mb-2 mr-sm-2 md-form form-group w-75">
+          <input type="text" class="form-control" formControlName="name" placeholder="Taper votre recherche..." [(ngModel)]="search" (keyup)="getOffres" >
+        </div>
+    
+        
+        
+        
+      </form>
+  
+  

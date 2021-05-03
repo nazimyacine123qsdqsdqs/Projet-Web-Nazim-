@@ -1,0 +1,67 @@
+{
+  "customers": [
+    {
+      "name": "Youcef",
+      "v_dep": "Alger",
+      "v_arr": "Oran",
+      "date": "Basic",
+      "id": 1
+    },
+    {
+      "name": "Nazim",
+      "v_dep": "Paris ",
+      "v_arr": "Lille",
+      "date": "2021-05-04",
+      "id": 2
+    },
+    {
+      "name": "Nabil ",
+      "v_dep": "El biar",
+      "v_arr": "Bab el zouar",
+      "date": "2021-05-12",
+      "id": 3
+    },
+    {
+      "name": "Ines",
+      "v_dep": "Paris",
+      "v_arr": "Nice",
+      "date": "2021-05-11",
+      "id": 4
+    },
+    {
+      "name": "Amine",
+      "v_dep": "Marseille",
+      "v_arr": "Lyon",
+      "date": "2021-05-17",
+      "id": 5
+    },
+    {
+      "name": "Anis",
+      "v_dep": "New York",
+      "v_arr": "Miami",
+      "date": "2021-05-26",
+      "id": 6
+    },
+    {
+      "name": "Rayan",
+      "v_dep": "Staoueli ",
+      "v_arr": "Rouiba",
+      "date": "2021-05-18",
+      "id": 7
+    },
+    {
+      "name": "Mehdi",
+      "v_dep": "Rennes",
+      "v_arr": "Paris",
+      "date": "2021-03-03",
+      "id": 8
+    },
+    {
+      "name": "Asma",
+      "v_dep": "Tipaza",
+      "v_arr": "Cheraga",
+      "date": "2021-05-26",
+      "id": 9
+    }
+  ]
+}
